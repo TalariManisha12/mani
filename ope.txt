@@ -1,0 +1,35 @@
+#arithmetic operators
+a=int(input("enter the number:"))
+b=int(input("enter the number:"))
+print("\nAddition\n{}+{}={}".format(a,b,a+b))
+print("\nsubtration\n{}-{}={}".format(a,b,a-b))
+print("\ndivision\n{}/{}={}".format(a,b,a/b))
+print("\nfloor division\n{}//{}={}".format(a,b,a//b))
+print("\nmodulus\n{}%{}={}".format(a,b,a%b))
+print("\nmultiplication\n{}*{}={}".format(a,b,a*b))
+print("\n exponentation\n{}**{}={}".format(a,b,a**b))
+
+#swap--multiline assignment
+a=input("enter value a:")
+b=input("enter value b:")
+print("-"*40)
+print("original value of a:",a)
+print("original value of b:",b)
+print("-"*40)
+a,b=b,a
+print("after swapping:")
+print("-"*40)
+print("val of a:{}\nval of b={}".format(a,b))
+
+#relational operators
+a=input("enter a value:")
+b=input("enter b value:")
+print("greater than\n{}>{}:{}".format(a,b,a>b))
+print("less than\n{}<{}:{}".format(a,b,a<b))
+print("equalto\n{}=={}:{}".format(a,b,a==b))
+print("not equal\n{}!={}:{}".format(a,b,a!=b))
+print("greater than or equalto\n{}>={}:{}".format(a,b,a>=b))
+print("less than or equal to\n{}<={}:{}".format(a,b,a<=b))
+
+
+
